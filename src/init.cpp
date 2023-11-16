@@ -650,8 +650,8 @@ void SetupServerArgs()
 
 std::string LicenseInfo()
 {
-    const std::string URL_SOURCE_CODE = "<https://github.com/TaftProject/cointaft>";
-    const std::string URL_WEBSITE = "<https://cointaft.com>";
+    const std::string URL_SOURCE_CODE = "<https://github.com/cointaft/cointaft>";
+    const std::string URL_WEBSITE = "<https://www.cointaft.cloud>";
 
     return CopyrightHolders(_("Copyright (C)"), 2014, COPYRIGHT_YEAR) + "\n" +
            "\n" +
