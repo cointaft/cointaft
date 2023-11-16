@@ -563,11 +563,9 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x68567757ff88675dfc70607729b8eb0cc284d96740c784c92abdd935981f27aa"));
         assert(genesis.hashMerkleRoot == uint256S("0xb7c1cc0e3d494509dbc5699f8d7a8ff751b1985719e56229ccb09902d79ca63f"));
 
-        vSeeds.emplace_back("idseed.cointaft.com");
-        vSeeds.emplace_back("usseed.cointaft.com");
-        vSeeds.emplace_back("seed.cointaft.com");
-
-
+        vSeeds.emplace_back("dnsseed.cointaft.cloud");
+        vSeeds.emplace_back("dnsseed2.cointaft.cloud");
+        vSeeds.emplace_back("dnsseed3.cointaft.cloud");
 
         // Cointaft addresses start with 'T'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,65);
