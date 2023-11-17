@@ -1,4 +1,4 @@
-Cointaft Core Latest v0.0.1.01
+Cointaft Core Latest v0.1.1.0
 ===========================
 
 |CI|master|develop|
