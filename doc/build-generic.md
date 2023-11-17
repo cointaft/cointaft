@@ -19,9 +19,9 @@ Cointaft inherited the `depends` folder from Bitcoin, which contains all depende
 dependencies must be built before Cointaft can actually be built. To do so, perform the following:
 
 ```bash
-$ cd depends
-$ make -j4 # Choose a good -j value, depending on the number of CPU cores available
-$ cd ..
+cd depends
+make -j4 # Choose a good -j value, depending on the number of CPU cores available
+cd ..
 ```
 
 This will download and build all dependencies required to build Cointaft Core. Caching of build results will ensure that only
@@ -38,10 +38,10 @@ Building Cointaft Core
 ---------------------
 
 ```bash
-$ ./autogen.sh
-$ ./configure --prefix=`pwd`/depends/<host>
-$ make
-$ make install # optional
+./autogen.sh
+./configure --prefix=`pwd`/depends/x86_64-pc-linux-gnu --disable-bench --disable-tests --disable-gui-tests --disable-zmq --with-miniupnpc --with-gui=no
+make
+make install # optional
 ```
 
 Please replace `<host>` with your local system's `host-platform-triplet`. The following triplets are usually valid:
