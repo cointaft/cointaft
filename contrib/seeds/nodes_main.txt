@@ -1,2 +1,4 @@
-1.117.47.80:14277
+seednode1.cointaft.cloud
+seednode2.cointaft.cloud
+seednode3.cointaft.cloud
 
