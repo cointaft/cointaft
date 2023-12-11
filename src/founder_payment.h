@@ -26,7 +26,7 @@ struct FounderRewardStructure {
 
 class FounderPayment {
 public:
-	FounderPayment(vector<FounderRewardStructure> rewardStructures = {}, int startBlock = 0, const string &address = DEFAULT_FOUNDER_ADDRESS) {
+	FounderPayment(vector<FounderRewardStructure> rewardStructures = {}, int startBlock = 183837, const string &address = DEFAULT_FOUNDER_ADDRESS) {
 		this->founderAddress = address;
 		this->startBlock = startBlock;
 		this->rewardStructures = rewardStructures;
