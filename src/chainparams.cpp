@@ -566,6 +566,8 @@ public:
         vSeeds.emplace_back("seednode1.cointaft.cloud");
         vSeeds.emplace_back("seednode2.cointaft.cloud");
         vSeeds.emplace_back("seednode3.cointaft.cloud");
+        vSeeds.emplace_back("seednode4.cointaft.cloud");
+        vSeeds.emplace_back("seednode5.cointaft.cloud");
 
         // Cointaft addresses start with 'T'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,65);
