@@ -624,7 +624,7 @@ public:
         nPoolNewMaxParticipants = 20;
         nFulfilledRequestExpireTime = 60*60; // fulfilled requests expire in 1 hour
 
-        vSporkAddresses = {"TVjkd8bSveaBgYFV59QdvQ2KXc2nFPcTS7"};
+        vSporkAddresses = {"TG7W1AUqwCmEPvdFkihRNJT5Jm7fXC1Vox"};
         nMinSporkKeys = 1;
         fBIP9CheckSmartnodesUpgraded = true;
 
