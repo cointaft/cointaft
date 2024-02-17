@@ -52,4 +52,4 @@ not straightforward.
 
 Donation
 -------
-https://explorer.cointaft.cloud/address/TNGiaWEiHtZA8kceoM1dShxBKKGg3szL4s
+https://explorer.cointaft.cloud/address/TEzg1UohH1NWG7gB6NtFzDmcdyDqjRbNMF
